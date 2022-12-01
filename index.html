@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<hmtl>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+        <link rel="stylesheet" href="./css/responsive.css">
+        <link rel="stylesheet" href="./css/styles.css">
+
+
+    </head>
+
+    <body class="body">
+
+        <div class="title">
+            <p>Repayment</p>
+        </div>
+
+        <div class="form-style-5">
+            <form>
+                <fieldset>
+                    <h4>Total Amount Payable</h4>
+                    <p>Please fill in all repayment information to help you get the loan again quickly.</p>
+                    <div id="inputbox">
+                        <div class="row">
+                            <div class="col">
+                                <p><span>* </span>Transaction ID:</p>
+                            </div>
+                            <div class="col"><input type="text" name="field1" placeholder="Please input"></div>
+                        </div>
+                    </div>
+
+                    <div id="inputbox">
+                        <div class="row">
+                            <div class="col">
+                                <p>Repayment Amount:</p>
+                            </div>
+                            <div class="col"><input type="text" name="field1" placeholder="Please input"></div>
+                        </div>
+                    </div>
+
+                    <div id="inputbox3">
+                        <div class="row">
+                            <div class="col">
+                                <p> Official repayment wallet account:</p>
+                            </div>
+                            <div class="col"><input type="text" name="field1" placeholder="Please input"></div>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="form-style-5">
+            <form>
+                <fieldset>
+                    <h5>Official repayment wallet account</h5>
+                    <p>You can access the wallet and repay the loan anytime.After the repayment is completed, please fill in the repayment amount and Transaction ID,so as to help you get into your account faster.</p>
+                    <div class="wavepay">
+                        <div class="row">
+                            <div class="col">
+
+                                <div class="text">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p>WavePay:</p>
+                                        </div>
+                                        <div class="col">
+                                            <article id="content-copy">
+                                               <p> 9776240760</p>
+                                            </article>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="copy">
+                                    <button type="button" class="btn btn-primary" id="btn-copy">Copy</button>
+                                </div>
+                                <script>
+                                    const copyButton = document.getElementById('btn-copy');
+                                    copyButton.addEventListener('click',(event) =>{
+                                     const content = document.getElementById('content-copy').textContent;
+                                     navigator.clipboard.writeText(content);
+                                     const copied = navigator.clipboard.readText();
+                                     console.log(coiped);
+                                    })
+                                </script>
+
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="text">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p>WavePay:</p>
+                                        </div>
+                                        <div class="col">
+                                            <article id="a">
+                                               <p>9778796878</p>
+                                            </article>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="copy">
+                                    <button type="button" class="btn btn-primary" id="btn-a">Copy</button>
+                                    <script>
+                                        const aCopy = document.getElementById('btn-a');
+                                        aCopy.addEventListener('click',(event) =>{
+                                         const a = document.getElementById('a').textContent;
+                                         navigator.clipboard.writeText(a);
+                                         const copied = navigator.clipboard.readText();
+                                         console.log(coiped);
+                                        })
+                                    </script>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="text">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p>WavePay:</p>
+                                        </div>
+                                        <div class="col">
+                                            <article id="b">
+                                               <p>9766597309</p>
+                                            </article>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="copy">
+                                    <button type="button" class="btn btn-primary" id="btn-b">Copy</button>
+                                    <script>
+                                        const bCopy = document.getElementById('btn-b');
+                                        bCopy.addEventListener('click',(event) =>{
+                                         const b = document.getElementById('b').textContent;
+                                         navigator.clipboard.writeText(b);
+                                         const copied = navigator.clipboard.readText();
+                                         console.log(coiped);
+                                        })
+                                    </script>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="text">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p>WavePay:</p>
+                                        </div>
+                                        <div class="col">
+                                            <article id="c">
+                                               <p>9792586712</p>
+                                            </article>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="copy">
+                                    <button type="button" class="btn btn-primary" id="btn-c">Copy</button>
+                                    <script>
+                                        const cCopy = document.getElementById('btn-c');
+                                        cCopy.addEventListener('click',(event) =>{
+                                         const c = document.getElementById('c').textContent;
+                                         navigator.clipboard.writeText(c);
+                                         const copied = navigator.clipboard.readText();
+                                         console.log(coiped);
+                                        })
+                                    </script>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="floating-button" style="text-align:center ;">
+            <div class="submit-button">
+                <p>Submit</p>
+            </div>
+        </div>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    </body>
+</hmtl>
